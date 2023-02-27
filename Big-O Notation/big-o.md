@@ -68,7 +68,11 @@ The Big-O notation for this function is O(4 + 5n) or O(n).
 
 ## Rules
 
-1. **Worst Case**: The Big-O notation describes the _worst_ case scenario for the algorithm. For example, the time complexity of the `find_nemo` function is O(n) because the for loop could have to iterate through the entire array to find `nemo`.
+1. **Worst Case**: The Big-O notation describes the _worst_ case scenario for the algorithm. For example, the time complexity of the `find_nemo` function is O(n) because the `for` loop could have to iterate through the entire array to find `nemo`.
 2. **Remove Constants**: The Big-O notation ignores constants.
-3. **Different terms for inputs**: The Big-O notation describes the time complexity in terms of the length of the input array. For example, the time complexity of the `anotherFunChallenge` function is O(n) because the for loop iterates through the input array once.
-4. Drop Non-Dominant Terms: The Big-O notation ignores non-dominant terms. For example, the time complexity of the `anotherFunChallenge` function is O(n) because the for loop iterates through the input array once.
+3. **Different terms for inputs**:
+
+   - Different inputs should have different variables: **_O(a + b)_** (+ for steps in order).
+   - A and B arrays nested would be **_O(a \* b)_** (\* for nested steps).
+
+4. **Drop Non-Dominant Terms**: The Big-O notation ignores non-dominant terms. If the time complexity is O(n + n^2), the Big-O notation is O(n^2) - the dominant term.
