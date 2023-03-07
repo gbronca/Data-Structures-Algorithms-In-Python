@@ -68,7 +68,7 @@ The Big-O notation for this function is O(4 + 5n) or O(n).
 
 ## Rules
 
-1. **Worst Case**: The Big-O notation describes the _worst_ case scenario for the algorithm. For example, the time complexity of the `find_nemo` function is O(n) because the `for` loop could have to iterate through the entire array to find `nemo`.
+1. Always **Worst Case**: The Big-O notation describes the _worst_ case scenario for the algorithm. For example, the time complexity of the `find_nemo` function is O(n) because the `for` loop could have to iterate through the entire array to find `nemo`.
 2. **Remove Constants**: The Big-O notation ignores constants.
 3. **Different terms for inputs**:
 
@@ -76,3 +76,24 @@ The Big-O notation for this function is O(4 + 5n) or O(n).
    - A and B arrays nested would be **_O(a \* b)_** (\* for nested steps).
 
 4. **Drop Non-Dominant Terms**: The Big-O notation ignores non-dominant terms. If the time complexity is O(n + n^2), the Big-O notation is O(n^2) - the dominant term.
+
+## What is good code?
+
+1. **Readability**: Code should be easy to read and understand.
+2. **Scalability**:
+   - Speed (Time Complexity)
+   - Memory (Space Complexity)
+
+## What causes Time Complexity?
+
+1. Operations (+, -, \*, /)
+2. Comparisons (<, >, ==)
+3. Looping (for, while)
+4. Ouside Function call (function(), def())
+
+## What causes Space Complexity?
+
+1. Variables
+2. Data Structures
+3. Function Call
+4. Allocations
