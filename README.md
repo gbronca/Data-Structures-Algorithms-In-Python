@@ -51,4 +51,6 @@ This repository contains Python implementations of various data structures and a
 
 ### Arrays
 
+1. [Introduction](/data_structures/arrays/introduction.py)
+
 ## Algorithms

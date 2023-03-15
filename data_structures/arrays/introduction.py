@@ -56,3 +56,8 @@ array.sort()
 
 # Adding elements to the end of the list has a constant time complexity O(1).
 # Adding elements to the beginning of the list has a linear time complexity O(n).
+
+# More information on Lists:
+# https://docs.python.org/3/tutorial/datastructures.html
+# deque objects:
+# https://docs.python.org/3/library/collections.html#collections.deque
